@@ -214,6 +214,9 @@
 
                 // revert display block
                 $that.css('display', '');
+				
+				// add row key
+				$that.data('mh-row', key);
             });
 
             // iterate the row and apply the height to all elements
